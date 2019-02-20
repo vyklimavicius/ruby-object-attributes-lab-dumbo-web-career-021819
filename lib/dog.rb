@@ -10,7 +10,15 @@ class Dog
    def name
     "#{@name}"
   end 
+  
+   def breed=(new_dog_breed) #setter
+   @breed = new_dog_breed
+   end 
+   
+   def breed 
+     "#{@breed}"
+   end 
 end 
 
-classbreed
+
 
